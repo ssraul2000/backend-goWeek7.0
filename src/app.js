@@ -27,4 +27,4 @@ class App {
     this.express.use(require("./routes"));
   }
 }
-module.exports = new App().express;
+module.exports = new App().server;
